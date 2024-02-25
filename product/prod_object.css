@@ -1,0 +1,37 @@
+.main-div{
+    border:4px green solid;
+    height:400px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.prod-div{
+    border:2px black solid;
+    height:400px;
+}
+.name-div{
+    /* border:2px black solid; */
+    height:100px;
+}
+.price-div{
+    /* border:2px black solid; */
+    height:20px;
+}
+.img-div{
+    display:flex;
+    justify-content: center;
+}
+img{
+    height:180px;
+}
+.button-div{
+    margin-top:30px;
+    vertical-align: middle;
+    text-align: center;
+}
+.add-button{
+    width:180px;
+    background-color: yellow;
+    border:none;
+    height:30px;
+    border-radius: 15px;
+}
